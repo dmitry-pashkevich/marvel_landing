@@ -1,0 +1,14 @@
+.title-line {
+  height: 6px;
+  width: 100px;
+  background: #FFD500;
+
+  @media (max-width: 575px) {
+      height: 4px;
+      width: 65px; }
+
+  &.white {
+    background: white;
+  }
+
+}

@@ -1,0 +1,38 @@
+
+section.services {
+  background-color: #FFD500;
+
+  .block-main {
+
+    .info-block-1 {
+      margin-bottom: 35px;
+      @media (max-width: 768px) {
+        margin-bottom: 25px;
+      }
+    }
+
+    .block-list {
+      margin-bottom: 45px;
+
+      @media (max-width: 768px) {
+        margin-bottom: 0px;
+      }
+
+      .service-block {
+
+        a {
+          &:after {
+            content: url("http://drupal.landing/themes/bfd/assets/image/arrow.svg");
+            margin-left: 50px;
+          }
+
+
+        }
+
+        @media (max-width: 991px) {
+            margin-bottom: 35px; }
+      }
+    }
+  }
+}
+

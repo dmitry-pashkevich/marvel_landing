@@ -1,0 +1,5 @@
+name: My Hooks
+description: My Hooks
+core: 8.x
+type: module
+package: Custom

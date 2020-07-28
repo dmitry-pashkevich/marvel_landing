@@ -1,0 +1,40 @@
+
+
+section.about {
+  .block-main {
+
+
+    img {
+      width: 100%;
+      height: auto;
+
+      @media (min-width: 992px) {
+        width: calc(100% - 68px);
+      }
+
+      @media (min-width: 768px) {
+        margin-top: 5px;;
+      }
+
+      @media (max-width: 768px) {
+        margin: 11px 0 2.5rem;
+      }
+
+      @media (max-width: 991px) and (min-width: 768px) {
+        width: calc(100% - 44px);
+      }
+    }
+
+
+
+    .body-block-text {
+      max-width: 490px;
+
+      p {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+

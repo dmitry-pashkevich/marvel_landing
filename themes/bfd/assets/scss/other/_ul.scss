@@ -1,0 +1,33 @@
+
+section .block-main ul {
+  margin-bottom: 25px;
+  list-style-type: none;
+
+  @media (min-width: 992px) {
+   padding-right: 40px;
+  }
+
+  @media (max-width: 575px) {
+    margin-bottom: 17px;
+  }
+
+  li {
+    display: flex;
+    margin-bottom: 12px;
+    line-height: 20px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 578px) {
+      line-height: 18px;
+    }
+
+    &:before {
+      content: url("http://drupal.landing/themes/bfd/assets/image/rectangle.svg");
+      margin: -4px 13px 0 0;
+    }
+  }
+
+}

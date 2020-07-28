@@ -1,0 +1,8 @@
+<?php
+
+use Symfony\Component\HttpFoundation\RedirectResponse;
+
+function hook_user_login($account) {
+  $redirect = new RedirectResponse("/");
+  $redirect->send();
+}

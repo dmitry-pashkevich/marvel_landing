@@ -1,0 +1,15 @@
+
+
+<div class="col-lg-6 col-8">
+  <div class="row submit-input">
+
+{% if attributes.hasClass('button') and not attributes.hasClass('field-add-more-submit') %}
+  <input{{ attributes.addClass('btn btn-primary') }}/>
+{% else %}
+  <input{{ attributes.addClass('form-control') }}/>
+{% endif %}
+{{ children }}
+
+  </div>
+</div>
+

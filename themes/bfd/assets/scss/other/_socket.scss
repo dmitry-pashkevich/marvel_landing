@@ -1,0 +1,22 @@
+
+.socket {
+  text-align: center;
+  margin:auto 0 120px;
+
+  @media (max-width: 575px) {
+      margin: auto 0 80px; }
+
+  a {
+    font-family: "Times New Roman", serif;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #F9D023;
+    padding: 18px 42px 15px;
+
+    &:after {
+      content: url("../image/socket.svg");
+      margin-left: 5px;
+    }
+  }
+}

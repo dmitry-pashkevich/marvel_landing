@@ -1,0 +1,77 @@
+
+.header-block {
+  background-image: url("http://drupal.landing/themes/bfd/assets/image/marvel.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .text {
+
+    .lines {
+      @media (max-width: 576px) {
+        display: none;
+      }
+      margin-bottom: 30px;
+      .line {
+        width: 1px;;
+        height: 101px;
+        margin: 0 auto;
+        background: #F6D330;
+
+      }
+    }
+
+
+    .scroll-block {
+      .scroll-text {
+        @media (max-width: 576px) {
+          display: none;
+        }
+        text-align: center;
+        margin-bottom: 45px;
+        color: white;
+        a {
+          font-size: 14px;
+          color: rgba(255, 255, 255, 0.7);
+          text-decoration: none;
+        }
+      }
+    }
+    .subtitle {
+      text-align: center;
+      margin-bottom: 91px;
+
+      p {
+        color: #fff;
+        font-size: 25px;
+        margin: 0;
+        font-family: 'Times New Roman', serif;
+        line-height: 35px;
+      }
+    }
+
+    padding-top: 22rem;
+
+    @media (max-width: 767px) {
+      padding-top: 35vw;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 40px;
+
+      h1 {
+        font-family: 'Alata-Regular', serif;
+        font-size: 115px;
+        line-height: 130px;
+        color: #fff;
+
+
+        @media (max-width: 767px) {
+            font-size: 80px;
+            line-height: 100px;  }
+      }
+    }
+  }
+
+}
